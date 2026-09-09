@@ -3,7 +3,7 @@
 **ID:** QA-01
 **Title:** Writing Standard Operating Procedures
 **Category:** Quality Assurance
-**Revision:** 1.3
+**Revision:** 1.4
 **Last updated:** 2026-09-09
 
 ## Purpose
@@ -100,6 +100,13 @@ for a template, `.csv` or `.md` for a form, `.sh` or `.py` for scripts, `.json` 
 `.yaml` for machine instructions). There is no requirement that attachments be
 Markdown.
 
+**Non-attachment references.** A SOP may also create, maintain, or depend on other
+files in the repository that are *not* attachments — for example, a living document
+the SOP maintains (`Business Plan/…`) or a directory of work products
+(`White Papers/…`). These are not assigned `CC-NN-XN` IDs, are not stored in
+`SOPs/Attachments/`, and are not subject to attachment numbering. Link them from the
+SOP body and list them in **References** under "other relevant documents".
+
 ### 3. Name the files
 
 Name every SOP and attachment file with its ID followed by a space and its title,
@@ -141,8 +148,9 @@ using the file type appropriate to the document:
      identify any ways the SOP could be improved and to post a GitHub issue for each
      one, following [AD-01](./AD-01%20Posting%20and%20Responding%20to%20GitHub%20Issues.md).
 4. In **References**, list each associated attachment by ID and title, then any other
-   relevant documents. Every entry must be a working hyperlink (relative links for
-   files in this repository, absolute URLs for external documents).
+   relevant documents — including any non-attachment repository files the SOP
+   maintains or depends on. Every entry must be a working hyperlink (relative links
+   for files in this repository, absolute URLs for external documents).
 5. Remove all template guidance notes and bracketed placeholders.
 
 ### 6. Review and finalize

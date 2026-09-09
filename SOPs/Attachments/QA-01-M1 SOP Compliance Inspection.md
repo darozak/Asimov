@@ -39,7 +39,7 @@ exact location (section, line, or filename) and a concrete suggested fix.
 | - | ----- |
 | C1 | **ID format** — the SOP's ID matches `^(QA|AD|PB)-\d{2}$`. The category word in the metadata block matches the designator (QA→Quality Assurance, AD→Administration, PB→Publishing). |
 | C2 | **ID uniqueness** — no other file in `SOPs/Procedures/` uses this ID. If this is a revision, the ID is unchanged from the previous version. |
-| C3 | **Location** — the SOP file is in `SOPs/Procedures/`. Every attachment it defines or references is in `SOPs/Attachments/`. |
+| C3 | **Location** — the SOP file is in `SOPs/Procedures/`. Every **attachment** it defines or references (a file with a `CC-NN-XN` ID) is in `SOPs/Attachments/`. Non-attachment repository files the SOP maintains or depends on (for example `Business Plan/…`, `White Papers/…`) are exempt — they keep their own location and are not attachments. |
 | C4 | **File name** — the SOP file is named `<ID> <Title>.md`. The `<Title>` in the filename matches the **Title** in the document (allowing for characters not permitted in filenames). |
 | C5 | **Markdown format** — the file is GitHub-flavored Markdown: headings use `#`, lists use `-`/`1.`, emphasis uses `*`/`**`. No HTML-only or word-processor constructs. |
 | C6 | **Metadata block** — the document states ID, Title, Category, Revision, and Last updated. "Last updated" is an ISO date (`YYYY-MM-DD`). |
@@ -47,9 +47,9 @@ exact location (section, line, or filename) and a concrete suggested fix.
 | C8 | **Section order** — the eight sections appear in the QA-01 order, with no extra top-level sections interleaved. |
 | C9 | **Mandatory General Guidelines** — the **General Guidelines** section contains (a) a guideline requiring the User and the AI to review the current version of the SOP before use in case it changed, (b) a guideline stating the SOP follows QA-01 for formatting requirements, and (c) a guideline requiring the User and the AI, after performing the SOP, to actively identify ways the SOP could be improved and post a GitHub issue for each, following AD-01. |
 | C10 | **References QA-01** — the SOP links to `QA-01` at least once (in General Guidelines and/or References). The target SOP itself may be QA-01, in which case the self-reference is expected; mark `N/A` for the "links to" wording but confirm it still states it defines its own rules. |
-| C11 | **Attachment IDs** — every attachment defined or referenced matches `^(QA|AD|PB)-\d{2}-[TAFMS]\d+$`, the `CC-NN` portion matches this SOP's ID, and the per-type numbers are sequential from 1 with no gaps or duplicates. |
+| C11 | **Attachment IDs** — every attachment defined or referenced matches `^(QA|AD|PB)-\d{2}-[TAFMS]\d+$`, the `CC-NN` portion matches this SOP's ID, and the per-type numbers are sequential from 1 with no gaps or duplicates. A non-attachment repository file the SOP maintains or depends on is not required to carry an attachment ID. |
 | C12 | **Attachment naming & location** — each attachment file is named `<attachment-ID> <Title>.<ext>` and lives in `SOPs/Attachments/`. The extension suits the attachment's purpose. |
-| C13 | **References completeness** — every attachment of this SOP is listed in **References**; attachments are listed before other documents. |
+| C13 | **References completeness** — every attachment of this SOP is listed in **References**, before other documents. Any non-attachment repository file the SOP maintains or depends on is also listed, under "other relevant documents". |
 | C14 | **Hyperlinks resolve** — every link in **References** (and elsewhere in the SOP) is a real hyperlink. Repo links are relative and point to a file that exists; external links are absolute URLs. Flag any bare filename or plain-text reference that should be a link. |
 | C15 | **Template residue removed** — no `[bracketed placeholders]`, no "Note to AI" / "How to use this template" guidance blocks, no `CC-NN` literal left unresolved. |
 
