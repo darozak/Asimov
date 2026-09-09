@@ -3,7 +3,7 @@
 **ID:** AD-02
 **Title:** Creating and Maintaining the Business Plan
 **Category:** Administration
-**Revision:** 1.0
+**Revision:** 1.1
 **Last updated:** 2026-09-09
 
 ## Purpose
@@ -66,6 +66,10 @@ plan, or when a scheduled review falls due.
 - The plan conforms to the section skeleton in AD-02-T1. Do not delete a section; if
   it does not yet apply, mark it "To be developed" and record it in **Open
   Questions**.
+- Published white papers (see
+  [PB-01](./PB-01%20Researching%2C%20Drafting%2C%20Editing%2C%20and%20Publishing%20White%20Papers.md))
+  are a primary evidence base for plan revisions. When a white paper changes the
+  strategy, revise the affected sections per §2 and cite the paper.
 
 ## Procedures
 
@@ -118,5 +122,6 @@ and link it from the relevant plan section and from **References** below.
 - [AD-02-T1](../Attachments/AD-02-T1%20Business%20Plan%20Template.md) — Business Plan Template (section skeleton the living plan conforms to)
 - [Asimov Business Plan](../../Business%20Plan/Asimov%20Business%20Plan.md) — the living business plan this SOP maintains
 - [AD-01](./AD-01%20Posting%20and%20Responding%20to%20GitHub%20Issues.md) — Posting and Responding to GitHub Issues (workflow for delivering plan changes)
+- [PB-01](./PB-01%20Researching%2C%20Drafting%2C%20Editing%2C%20and%20Publishing%20White%20Papers.md) — Researching, Drafting, Editing, and Publishing White Papers (white papers inform plan revisions)
 - [QA-01](./QA-01%20Writing%20Standard%20Operating%20Procedures.md) — Writing Standard Operating Procedures
 - [IRS: Measuring Lobbying Activity — 501(c)(3)](https://www.irs.gov/charities-non-profits/measuring-lobbying-activity-substantial-part-test) — nonprofit lobbying limits relevant to the plan's policy strategy
