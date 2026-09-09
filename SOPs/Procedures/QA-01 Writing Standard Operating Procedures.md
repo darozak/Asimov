@@ -3,7 +3,7 @@
 **ID:** QA-01
 **Title:** Writing Standard Operating Procedures
 **Category:** Quality Assurance
-**Revision:** 1.0
+**Revision:** 1.1
 **Last updated:** 2026-09-09
 
 ## Purpose
@@ -33,6 +33,7 @@ proposes one.
 
 - Write access to this repository.
 - [QA-01-T1 — Standard Operating Procedure Template](../Attachments/QA-01-T1%20Standard%20Operating%20Procedure%20Template.md)
+- [QA-01-M1 — SOP Compliance Inspection](../Attachments/QA-01-M1%20SOP%20Compliance%20Inspection.md)
 - The `SOPs/Procedures/` directory (all SOPs).
 - The `SOPs/Attachments/` directory (all attachments).
 - A Markdown editor or viewer capable of rendering GitHub-flavored Markdown.
@@ -143,10 +144,14 @@ using the file type appropriate to the document:
 1. Verify the ID is unique, the file is named and located per steps 3–4, and all
    eight sections are present and complete.
 2. Verify every link in **References** resolves.
-3. Present the draft to the User for approval.
-4. On approval, commit the SOP and any new or changed attachments together.
+3. Run the [QA-01-M1 — SOP Compliance Inspection](../Attachments/QA-01-M1%20SOP%20Compliance%20Inspection.md)
+   machine instructions against the draft. Resolve every `FAIL` until the inspection
+   reports **COMPLIANT**, then include the inspection report with the draft.
+4. Present the draft and the inspection report to the User for approval.
+5. On approval, commit the SOP and any new or changed attachments together.
 
 ## References
 
 - [QA-01-T1](../Attachments/QA-01-T1%20Standard%20Operating%20Procedure%20Template.md) — Standard Operating Procedure Template (required structure for all SOPs)
+- [QA-01-M1](../Attachments/QA-01-M1%20SOP%20Compliance%20Inspection.md) — SOP Compliance Inspection (machine instructions Claude runs to check an SOP against this document and existing SOPs)
 - [GitHub Flavored Markdown Spec](https://github.github.com/gfm/) — Markdown formatting reference
