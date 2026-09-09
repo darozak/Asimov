@@ -3,7 +3,7 @@
 **ID:** QA-01
 **Title:** Writing Standard Operating Procedures
 **Category:** Quality Assurance
-**Revision:** 1.1
+**Revision:** 1.2
 **Last updated:** 2026-09-09
 
 ## Purpose
@@ -148,10 +148,14 @@ using the file type appropriate to the document:
    machine instructions against the draft. Resolve every `FAIL` until the inspection
    reports **COMPLIANT**, then include the inspection report with the draft.
 4. Present the draft and the inspection report to the User for approval.
-5. On approval, commit the SOP and any new or changed attachments together.
+5. On approval, deliver the SOP and any new or changed attachments through the issue
+   workflow in [AD-01](./AD-01%20Posting%20and%20Responding%20to%20GitHub%20Issues.md):
+   commit them together on the issue branch, push for review, and merge only on the
+   User's explicit instruction.
 
 ## References
 
 - [QA-01-T1](../Attachments/QA-01-T1%20Standard%20Operating%20Procedure%20Template.md) — Standard Operating Procedure Template (required structure for all SOPs)
 - [QA-01-M1](../Attachments/QA-01-M1%20SOP%20Compliance%20Inspection.md) — SOP Compliance Inspection (machine instructions Claude runs to check an SOP against this document and existing SOPs)
+- [AD-01](./AD-01%20Posting%20and%20Responding%20to%20GitHub%20Issues.md) — Posting and Responding to GitHub Issues (the issue and branch workflow used to deliver SOP changes)
 - [GitHub Flavored Markdown Spec](https://github.github.com/gfm/) — Markdown formatting reference
