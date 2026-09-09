@@ -83,6 +83,9 @@ GitHub issue on this repository.
 1. Confirm the issue is `CLOSED`.
 2. Post a comment on the issue summarizing the solution: what changed, the merge
    commit, and any follow-up issues created.
+3. Apply the improvement-issue guideline required by QA-01: with the User, actively
+   identify any ways this SOP (and any other SOP performed while addressing the
+   issue) could be improved, and post a GitHub issue for each. If none, say so.
 
 ## Guardrails
 
