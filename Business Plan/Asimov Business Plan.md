@@ -1,6 +1,6 @@
 # Asimov Project Business Plan
 
-**Version:** 0.1
+**Version:** 0.2
 **Last updated:** 2026-09-09
 **Next review:** 2026-12-09
 **Owner:** Executive Director (User)
@@ -197,18 +197,19 @@ AD-02 attachment once drafted.
 
 ## 15. Open Questions
 
-Each item should have a linked GitHub issue.
+Each item is tracked by a GitHub issue and will be resolved through an AD-02 revision.
 
-- Legal entity formation and 501(c)(3) application — jurisdiction, timeline, counsel.
-- Board composition and recruitment.
-- First-year budget and 3-year financial projection (§10).
-- Target legislative bodies for the first cycle (§5).
-- Allies and likely opposition mapping (§6).
-- Operating rhythm and cadences (§8, §13).
-- Evidence base and jurisdictional survey for §3.
+- Legal entity formation and 501(c)(3) application — jurisdiction, timeline, counsel (§7, §13) — [#18](https://github.com/darozak/Asimov/issues/18)
+- Board composition and recruitment (§7) — [#19](https://github.com/darozak/Asimov/issues/19)
+- First-year budget and 3-year financial projection (§10) — [#20](https://github.com/darozak/Asimov/issues/20)
+- Target legislative bodies for the first cycle (§5) — [#21](https://github.com/darozak/Asimov/issues/21)
+- Allies and likely-opposition mapping (§5, §6) — [#22](https://github.com/darozak/Asimov/issues/22)
+- Operating rhythm and compliance cadences (§8, §13) — [#23](https://github.com/darozak/Asimov/issues/23)
+- Evidence base and jurisdictional survey for the problem statement (§3) — [#24](https://github.com/darozak/Asimov/issues/24)
 
 ## Changelog
 
 | Version | Date | Summary of changes | Issue / PR |
 | ------- | ---- | ------------------ | ---------- |
+| 0.2 | 2026-09-09 | Linked each Open Questions item to its tracking GitHub issue (#18–#24); no content changes to other sections | [#14](https://github.com/darozak/Asimov/issues/14) |
 | 0.1 | 2026-09-09 | Initial draft: mission, theory of change, programs, policy strategy, roadmap, risks, and metrics articulated; governance, funding, and financials stubbed with open questions | [#11](https://github.com/darozak/Asimov/issues/11) |
