@@ -3,7 +3,7 @@
 **ID:** QA-01
 **Title:** Writing Standard Operating Procedures
 **Category:** Quality Assurance
-**Revision:** 1.2
+**Revision:** 1.3
 **Last updated:** 2026-09-09
 
 ## Purpose
@@ -44,6 +44,9 @@ proposes one.
   document in the repository to confirm it has not changed since last use.
 - This SOP follows the formatting, numbering, and structural requirements defined in
   QA-01 (this document).
+- After performing this SOP, the User and the AI actively identify any ways this SOP
+  could be improved and post a GitHub issue for each one, following
+  [AD-01](./AD-01%20Posting%20and%20Responding%20to%20GitHub%20Issues.md).
 - Write all SOPs in Markdown using GitHub-flavored Markdown elements. Do not use
   word-processor-style formatting.
 - Keep language concrete and imperative. Prefer numbered steps for anything that is
@@ -129,11 +132,14 @@ using the file type appropriate to the document:
    | Procedures | The ordered steps to execute the procedure. |
    | References | Associated attachments first, then other relevant documents; all hyperlinked. |
 
-3. In **General Guidelines**, include these two entries in every SOP:
+3. In **General Guidelines**, include these three entries in every SOP:
    - A guideline requiring the User and the AI to review the current version of the
      SOP in the repository before use, in case it has changed.
    - A guideline stating that the SOP follows the formatting requirements defined in
      [QA-01](./QA-01%20Writing%20Standard%20Operating%20Procedures.md).
+   - A guideline requiring the User and the AI, after performing the SOP, to actively
+     identify any ways the SOP could be improved and to post a GitHub issue for each
+     one, following [AD-01](./AD-01%20Posting%20and%20Responding%20to%20GitHub%20Issues.md).
 4. In **References**, list each associated attachment by ID and title, then any other
    relevant documents. Every entry must be a working hyperlink (relative links for
    files in this repository, absolute URLs for external documents).

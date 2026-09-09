@@ -46,7 +46,7 @@ the procedure. Link to each where possible.*
 
 ## General Guidelines
 
-*Standing rules that apply throughout the procedure. The first two bullets below are
+*Standing rules that apply throughout the procedure. The first three bullets below are
 required by [QA-01](../Procedures/QA-01%20Writing%20Standard%20Operating%20Procedures.md)
 and must appear verbatim in every SOP. Add procedure-specific guidelines after them.*
 
@@ -54,6 +54,9 @@ and must appear verbatim in every SOP. Add procedure-specific guidelines after t
   document in the repository to confirm it has not changed since last use.
 - This SOP follows the formatting, numbering, and structural requirements defined in
   [QA-01](../Procedures/QA-01%20Writing%20Standard%20Operating%20Procedures.md).
+- After performing this SOP, the User and the AI actively identify any ways this SOP
+  could be improved and post a GitHub issue for each one, following
+  [AD-01](../Procedures/AD-01%20Posting%20and%20Responding%20to%20GitHub%20Issues.md).
 - [Additional procedure-specific guideline]
 
 ## Procedures
@@ -71,5 +74,6 @@ and the expected output of each step.*
 All entries must be reachable by hyperlink.*
 
 - [QA-01](../Procedures/QA-01%20Writing%20Standard%20Operating%20Procedures.md) — Writing Standard Operating Procedures
+- [AD-01](../Procedures/AD-01%20Posting%20and%20Responding%20to%20GitHub%20Issues.md) — Posting and Responding to GitHub Issues
 - [CC-NN-T1](./CC-NN-T1%20[Attachment%20Title].md) — [Attachment title and purpose]
 - [External document](https://example.com) — [What it is and why it matters]

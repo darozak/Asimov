@@ -45,7 +45,7 @@ exact location (section, line, or filename) and a concrete suggested fix.
 | C6 | **Metadata block** — the document states ID, Title, Category, Revision, and Last updated. "Last updated" is an ISO date (`YYYY-MM-DD`). |
 | C7 | **Required sections present** — all eight headings exist: `Purpose`, `Applicability`, `Roles and Responsibilities`, `Required Resources`, `General Guidelines`, `Procedures`, `References` (plus the title block). |
 | C8 | **Section order** — the eight sections appear in the QA-01 order, with no extra top-level sections interleaved. |
-| C9 | **Mandatory General Guidelines** — the **General Guidelines** section contains (a) a guideline requiring the User and the AI to review the current version of the SOP before use in case it changed, and (b) a guideline stating the SOP follows QA-01 for formatting requirements. |
+| C9 | **Mandatory General Guidelines** — the **General Guidelines** section contains (a) a guideline requiring the User and the AI to review the current version of the SOP before use in case it changed, (b) a guideline stating the SOP follows QA-01 for formatting requirements, and (c) a guideline requiring the User and the AI, after performing the SOP, to actively identify ways the SOP could be improved and post a GitHub issue for each, following AD-01. |
 | C10 | **References QA-01** — the SOP links to `QA-01` at least once (in General Guidelines and/or References). The target SOP itself may be QA-01, in which case the self-reference is expected; mark `N/A` for the "links to" wording but confirm it still states it defines its own rules. |
 | C11 | **Attachment IDs** — every attachment defined or referenced matches `^(QA|AD|PB)-\d{2}-[TAFMS]\d+$`, the `CC-NN` portion matches this SOP's ID, and the per-type numbers are sequential from 1 with no gaps or duplicates. |
 | C12 | **Attachment naming & location** — each attachment file is named `<attachment-ID> <Title>.<ext>` and lives in `SOPs/Attachments/`. The extension suits the attachment's purpose. |
@@ -102,3 +102,4 @@ if the User asks, and re-run this inspection afterward.
 
 - [QA-01](../Procedures/QA-01%20Writing%20Standard%20Operating%20Procedures.md) — Writing Standard Operating Procedures
 - [QA-01-T1](./QA-01-T1%20Standard%20Operating%20Procedure%20Template.md) — Standard Operating Procedure Template
+- [AD-01](../Procedures/AD-01%20Posting%20and%20Responding%20to%20GitHub%20Issues.md) — Posting and Responding to GitHub Issues (referenced by mandatory General Guideline C9c)

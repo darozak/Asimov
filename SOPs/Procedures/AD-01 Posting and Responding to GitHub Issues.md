@@ -3,7 +3,7 @@
 **ID:** AD-01
 **Title:** Posting and Responding to GitHub Issues
 **Category:** Administration
-**Revision:** 1.0
+**Revision:** 1.1
 **Last updated:** 2026-09-09
 
 ## Purpose
@@ -43,6 +43,9 @@ issue #N".
   document in the repository to confirm it has not changed since last use.
 - This SOP follows the formatting requirements defined in
   [QA-01](./QA-01%20Writing%20Standard%20Operating%20Procedures.md).
+- After performing this SOP, the User and the AI actively identify any ways this SOP
+  could be improved and post a GitHub issue for each one (per the procedure in this
+  SOP).
 - One issue per branch and one branch per issue. Issue work is never committed
   directly to `main`.
 - The AI pushes changes for the User to review and never merges into `main` without
