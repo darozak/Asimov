@@ -18,4 +18,4 @@ Formal research white papers for the Asimov Project, maintained under
 
 | ID | Title | Status | Version |
 | -- | ----- | ------ | ------- |
-| _none yet_ | | | |
+| [WP-2026-02](./WP-2026-02%20Why%20the%20Project%20Is%20Named%20After%20Isaac%20Asimov.md) | Why the Project Is Named After Isaac Asimov | Draft | 0.1 |
