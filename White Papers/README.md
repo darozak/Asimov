@@ -18,4 +18,4 @@ Formal research white papers for the Asimov Project, maintained under
 
 | ID | Title | Status | Version |
 | -- | ----- | ------ | ------- |
-| _none yet_ | | | |
+| [WP-2026-01](./WP-2026-01%20Nonprofit%20Peers%20in%20Human-Machine%20Governance.md) | Nonprofit Peers in Human-Machine Governance | Draft | 0.1 |
