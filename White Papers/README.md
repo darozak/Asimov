@@ -18,4 +18,4 @@ Formal research white papers for the Asimov Project, maintained under
 
 | ID | Title | Status | Version |
 | -- | ----- | ------ | ------- |
-| [WP-2026-02](./WP-2026-02%20Why%20the%20Project%20Is%20Named%20After%20Isaac%20Asimov.md) | Why the Project Is Named After Isaac Asimov | Draft | 0.1 |
+| [WP-2026-02](./WP-2026-02%20The%20Three%20Laws%20of%20Robotics%20as%20a%20Starting%20Point.md) | The Three Laws of Robotics as a Starting Point | Draft | 0.2 |
